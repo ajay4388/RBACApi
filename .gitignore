@@ -1,0 +1,18 @@
+# Ignore .NET build output
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore Angular node modules
+rbac-ui/node_modules/
+
+# Ignore environment files
+rbac-ui/src/environments/environment*.ts
+
+# Ignore published files
+publish/
+
+# VSCode
+.vscode/
+.vs/
