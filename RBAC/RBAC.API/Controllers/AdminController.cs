@@ -16,7 +16,6 @@ namespace RBAC.API.Controllers
         public AdminController(IAdminService service)
         {
             _service = service;
-            //samplecode
         }
 
         [HttpGet("users")]
