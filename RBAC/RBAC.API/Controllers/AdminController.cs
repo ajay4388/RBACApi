@@ -12,9 +12,11 @@ namespace RBAC.API.Controllers
     {
         private readonly IAdminService _service;
 
+
         public AdminController(IAdminService service)
         {
             _service = service;
+            //samplecode
         }
 
         [HttpGet("users")]
