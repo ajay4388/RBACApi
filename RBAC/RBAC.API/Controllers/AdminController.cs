@@ -24,7 +24,7 @@ namespace RBAC.API.Controllers
             var users = await _service.GetAllUsersAsync();
             return Ok(users);
         }
-
+        //this method is to assign the role
         [HttpPost("assign-role")]
         public async Task<IActionResult> AssignRole([FromBody] AssignRoleDto dto)
         {
